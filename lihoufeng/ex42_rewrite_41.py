@@ -18,7 +18,7 @@ class Game(object):
         while True:
             print "\n---------"
             room = getattr(self, next)
-            mext = room()
+            next = room()
 
 
     def death(self):
